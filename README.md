@@ -76,7 +76,7 @@ Run the model from the command line:
 
 Below is an example of the stress contour from the pull-test simulation:
 
-![Stress Contour](images/pulltest_result.png)
+![Stress Contour](images/shear_test.png)
 
 ## License
 MIT License (recommended)
