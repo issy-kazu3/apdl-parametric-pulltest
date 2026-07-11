@@ -47,21 +47,29 @@ Materials are loaded from external SI-unit libraries:
 
 ## Meshing
 Mesh is generated using MAPED meshing (mshkey=1). 
+
 Element counts are computed automatically: 
+
 　DX = NINT((x2 - x1)/BUSX) 
+ 
 　DY = NINT((y2 - y1)/BUSY) 
+ 
 　DZ = NINT((z2 - z1)/BUSZ) 
 
 This ensures mesh consistency when dimensions change. 
 
 ## Loading
 Pull load is applied in the Y-direction: 
+
 Si, Al, CuMo (optional regions) 
+
 　LOADFULL = 100 
+ 
 　LOAD = -LOADFULL/2 
 
 ## How to Run
 Run the model from the command line: 
+
   ansys -b -i src/PULLTEST.txt -o pulltest.out
 
 ## License
