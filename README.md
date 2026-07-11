@@ -5,6 +5,10 @@ Fully scripted APDL pull-test model (no GUI)
 This repository contains a fully scripted APDL model for simulating a resin–busbar pull test.
 The model is 100% parametric, including geometry, mesh, materials, and loading conditions.
 
+本リポジトリは、樹脂中に埋設されたバスバーの引張試験を
+APDL の完全スクリプトで解析するためのモデルです。
+ジオメトリ・メッシュ・材料・荷重条件がすべてパラメトリック化されています。
+
 Key features:
 
 - Parametric geometry (busbar + resin + fine regions)
@@ -69,6 +73,8 @@ Si, Al, CuMo (optional regions)
 
 ## How to Run
 Run the model from the command line: 
+
+モデルは以下のコマンドで実行できます：
 
   ansys -b -i src/PULLTEST.txt -o pulltest.out
 
