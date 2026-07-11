@@ -72,6 +72,12 @@ Run the model from the command line:
 
   ansys -b -i src/PULLTEST.txt -o pulltest.out
 
+## Execution Example
+
+Below is an example of the stress contour from the pull-test simulation:
+
+![Stress Contour](images/pulltest_result.png)
+
 ## License
 MIT License (recommended)
 
