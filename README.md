@@ -45,4 +45,19 @@ Materials are loaded from external SI-unit libraries:
 
 - Cu (busbar)
 
+## Meshing
+Mesh is generated using MAPED meshing (mshkey=1).
+Element counts are computed automatically:
+
+
+This ensures mesh consistency when dimensions change.
+
+## Loading
+Pull load is applied in the Y-direction:
 Si, Al, CuMo (optional regions)
+
+## License
+MIT License (recommended)
+
+## Contact
+For questions or improvements, feel free to open an issue or pull request.
